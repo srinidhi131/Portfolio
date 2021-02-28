@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Domine:wght@700&family=Lato&family=Lora:ital@1&family=Montserrat&family=Open+Sans:wght@300&family=Playfair+Display:wght@600&family=Poppins:wght@700&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.basic{
+    max-width: 1300px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 ,80px;
+}
+.navbar{
+    position:fixed;
+    padding: 15px , 0;
+    width: 100%;
+    background: #1B0A2A;
+    font-family: 'Domine';
+    z-index: 1001;
+}
+.navbar .basic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:white;
+    font-size: 40px;
+    font-weight: 60;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    
+}
+.navbar .menu li a:hover{
+    color:rgb(228, 188, 238);
+}
+.home{
+    display:flex;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    margin-bottom: 200px;
+}
+.home .basic{
+    margin: auto 0 auto 80px;
+}
+.home-container {
+    margin-top: 125px;
+    float: left;
+    
+}
+.home-container .text1{
+    color: #1B0A2A;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.home-container .text2{
+    color: #1B0A2A;
+    font-size: 55px;
+    font-weight: 100;
+}
+.home-container .info{
+    color: rgb(172, 135, 182);
+}
+.image .img .comp{
+    float: right;
+    margin-top: -290px;
+    margin-left: 730px;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-container .download{
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    background-color:#1B0A2A;
+    color: white;
+    transition: transform .2s;
+    border-radius: 12px;
+    font-family: 'Domine';
+    font-weight: 200;
+}
+.home-container .download:hover {
+    color: rgb(172, 135, 182);
+    transform: scale(1.1);
+  }
+  .about-container{
+      margin-bottom: 200px;
+      float: right;
+      font-family: 'Montserrat';
+  }
+  .about-container .about1{
+      padding-top: 175px;
+      font-size: 45px;
+  }
+  .about-container .about2{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(172, 135, 182);
+}
+.about-container .about3{
+    font-size: 20px;
+    color: rgb(172, 135, 182);
+}
+.image1 .img1 .potrait{
+    float: left;
+    margin-top:125px ;
+    height: 300px;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skills{
+    margin-top: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.skills-container{
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.skills-container .card{
+    position: relative;
+    width: 250px;
+    background: radial-gradient(circle, white,white,#F3F3FF) ;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1%;
+    font-family: 'Domine';
+}
+.skills-container .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.percent{
+    position:relative ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px rgb(182, 127, 196);
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.percent .number h2{
+    color: rgb(228, 188, 238);
+    font-weight: 700;
+    font-size: 25px;
+    transition: 1s;
+}
+.card:hover .percent .number h2{
+    color:#1B0A2A;
+    font-size: 35px;
+}
+.percent .number h2 span{
+    font-size: 20px;
+}
+.text{
+    position: relative;
+    color:rgb(228, 188, 238);
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.card:hover .text{
+    color: #1B0A2A;
+    font-size: 18px;
+}
+svg{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    stroke:rgb(228, 188, 238);
+}
+svg circle{
+    width:100%;
+    height: 100%;
+    fill:none;
+    stroke: rgb(228, 188, 238);
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+
+}
+svg circle:nth-child(2){
+    stroke-dasharray:440 ;
+    stroke-dashoffset:440;
+}
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 75)/100);
+    stroke: #47E1C3;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 68)/100);
+    stroke: teal;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 65)/100);
+    stroke: rgb(129, 6, 185);
+}
+.card:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 55)/100);
+    stroke: rgb(201, 112, 241);
+}
+.head{
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #1B0A2A;
+    font-family: 'Montserrat';   
+}
+.contact{
+    margin-top: 225px;
+    font-family: Montserrat;
+    margin-bottom: 150px;
+    color: #251038;
+}
+.head-contact{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.name{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.icon{
+    float: left;
+    margin-bottom: 150px;
+}
+.image2 .img2 .phone{
+    float: right;
+    margin-top: -100px;
+    margin-right: 40px;;
+    height: 300px;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
