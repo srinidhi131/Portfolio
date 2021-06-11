@@ -135,7 +135,7 @@ html {
     width: 900px;
     display: flex;
     justify-content: space-around;
-
+    margin-left : 200px;
 }
 .skills-container .card{
     position: relative;
