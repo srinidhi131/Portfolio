@@ -7,6 +7,8 @@ html {
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    width: inherit;
+    height: inherit;
 }
 .basic{
     max-width: 1300px;
