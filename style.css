@@ -100,6 +100,7 @@ html {
   }
   .about-container{
       margin-bottom: 200px;
+      margin-left: 100px;
       float: right;
       font-family: 'Montserrat';
   }
