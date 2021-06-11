@@ -98,6 +98,12 @@ html {
     color: rgb(172, 135, 182);
     transform: scale(1.1);
   }
+.about{
+    display:flex;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    margin-bottom: 200px;
+}
   .about-container{
       margin-bottom: 200px;
       margin-left: 100px;
